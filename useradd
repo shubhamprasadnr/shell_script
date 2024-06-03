@@ -1,0 +1,6 @@
+#!/bin/bash 
+echo "enter your user name :"
+read username
+echo " youe enter $username "
+sudo useradd  -m $username
+echo " new use added"
